@@ -27,7 +27,7 @@ export default component$(() => {
         <i> A `qDefault` classname could be used, if need be.</i>
       </p>
       <p>
-        A CSS$ style looks as follows. <i>The `@import` is the only at-rule now supported, initially.</i>
+        A CSS$ style looks as follows. <i>The `@import` is the only at-rule NOT supported, initially.</i>
         A CSS-in-JS object could alternatively be passed to CSS$ once the right schema is selected.
       </p>
       <p style={{ whiteSpace: "pre", color: "blue", fontSize: "0.8em"}}>
@@ -45,6 +45,7 @@ export default component$(() => {
               }
           }
 
+          /* This class also get locally scoped and can be used later via useStyleScopeId() */
           .big-magic {
               font-size: 1.7em;
               font-weight: 900;
@@ -68,7 +69,7 @@ export default component$(() => {
 `}
       </p>
       <div class="qDefault">
-        <div class="big-magic">Big Magic!</div>
+        <div class="big-magic">It's Magic!</div>
       </div>
     </div>
   );

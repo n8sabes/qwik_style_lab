@@ -24,7 +24,7 @@ export default component$(() => {
           <Link href='/lab2'>Lab 2 - CSS$ vanilla css or CSS-in-JS with default style</Link>
         </li>
         <li>
-          <Link href='/lab3'>Lab 3 - useScopeId() just as important as useId()</Link>
+          <Link href='/lab3'>Lab 3 - useStyleScopeId() just as important as useId()</Link>
         </li>
       </ul>
     </div>

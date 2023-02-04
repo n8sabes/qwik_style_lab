@@ -13,13 +13,13 @@ export default component$(() => {
         {DOC_NAME} <span class="lightning">⚡️</span>
       </h1>
       <p>
-        This lab explains <b>useScopeId()</b>
+        This lab explains <b>useStyleScopeId()</b>
       </p>
       <p>
-      <b>useScopeId()</b> is just as important as <b>useId()</b>. This allows access to the classes that get scoped
+      <b>useStyleScopeId()</b> is just as important as <b>useId()</b>. This allows access to the classes that get scoped
         in .css files, CSS-in-JS objects, and as strings to CSS$. The source shows two implementations,
         one using a path syntax to access known paren classnames (that have been locally scoped), and a
-        minimal funciton useScopeId() requirement that enables the developer to implement any type of scope
+        minimal funciton useStyleScopeId() requirement that enables the developer to implement any type of scope
         control necessary for the stack.
       </p>
       <div style={{ padding: "20px" }} onClick$={() => makeUnique.value = !makeUnique.value}>

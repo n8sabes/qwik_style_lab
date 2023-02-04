@@ -10,7 +10,7 @@ export default component$((props: { useUniqueNames: boolean }) => {
 
     return (<>
         <div class="wobble" style={{ border: "2px dashed blue", padding: "5px" }}>
-            specialChild id = {id}
+            knownStylesContainer id = {id}
             <Shake useUniqueNames={props.useUniqueNames} >
                 <KnownStylesConsumer />
             </Shake>

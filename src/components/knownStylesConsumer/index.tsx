@@ -21,6 +21,7 @@ export default component$(() => {
             <div style={{ border: "2px dashed red", padding: "5px" }} class={"!!/wobble"}>
                 Nearest pinned scope
             </div>
+            
             <div style={{ border: "2px dashed red", padding: "5px" }} class={"./wobble"}>
                 Current scope
             </div>

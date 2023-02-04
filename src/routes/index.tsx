@@ -15,7 +15,7 @@ export default component$(() => {
         The use of the word atomic here means "all the pieces" that make up a
         style, inclusive of selectors (classnames and ids), @keyframe and @media query at-rules.
       </div>
-      <br/>
+      <br />
       <ul>
         <li>
           <Link href='/lab1'>Lab 1 - Scope Declaration Blocks AND Rulesets</Link>
@@ -27,11 +27,18 @@ export default component$(() => {
           <Link href='/lab3'>Lab 3 - useStyleScopeId() just as important as useId()</Link>
         </li>
       </ul>
-      <br/>
+      <br />
+      Videos:
       <ul>
         <li>
-          <Link href='/'>Video Explanation</Link>
+          <Link href='https://www.loom.com/share/5ff93a9b179942f19c72259205ded04c'>Video - Namespace and CSS$ default styles</Link>
         </li>
+        <li>
+          <Link href='https://www.loom.com/share/a07816dd3de242f4861347fa53d643f8'>Video - useStyleScopeId</Link>
+        </li>
+      </ul>
+      Resources:
+      <ul>
         <li>
           <Link href='https://github.com/n8sabes/qwik_style_lab'>Qwik Style Lab Repo</Link>
         </li>

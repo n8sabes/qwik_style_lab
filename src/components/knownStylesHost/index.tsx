@@ -14,6 +14,7 @@ export default component$((props: { useUniqueNames: boolean }) => {
             <Shake useUniqueNames={props.useUniqueNames} >
                 <KnownStylesConsumer />
             </Shake>
+            <KnownStylesConsumer />
             <Bounce useUniqueNames={props.useUniqueNames} >
                 Bounce
             </Bounce>

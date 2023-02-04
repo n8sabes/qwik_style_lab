@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@builder.io/qwik': github:builderio/qwik-build
-  '@builder.io/qwik-city': github:builderio/qwik-city-build
+  '@builder.io/qwik': ^0.17.3
+  '@builder.io/qwik-city': 0.1.0-beta12
   '@types/eslint': 8.21.0
   '@types/node': ^18.11.18
   '@types/node-fetch': ^2.6.2
@@ -18,8 +18,8 @@ specifiers:
   vite-tsconfig-paths: 4.0.5
 
 devDependencies:
-  '@builder.io/qwik': github.com/builderio/qwik-build/469c210bf3bffc7c04f33b3daf89e7483fb4cf9c_undici@5.16.0
-  '@builder.io/qwik-city': github.com/builderio/qwik-city-build/b9867c48fafd0b9c16a301a0e1cc64e46dc51000_@builder.io+qwik@0.17.3
+  '@builder.io/qwik': 0.17.3_undici@5.16.0
+  '@builder.io/qwik-city': 0.1.0-beta12_@builder.io+qwik@0.17.3
   '@types/eslint': 8.21.0
   '@types/node': 18.11.18
   '@types/node-fetch': 2.6.2
@@ -35,6 +35,31 @@ devDependencies:
   vite-tsconfig-paths: 4.0.5_typescript@4.9.5
 
 packages:
+
+  /@builder.io/qwik-city/0.1.0-beta12_@builder.io+qwik@0.17.3:
+    resolution: {integrity: sha512-glmAeZvFNJxVmh5vvgkcs24etmXsEermZHL6z+KAYCgUz/bFCOMjuZZy5/RORW+P9ArGarWpdlCsg/qgHKVc1A==}
+    peerDependencies:
+      '@builder.io/qwik': '>=0.17.0'
+    dependencies:
+      '@builder.io/qwik': 0.17.3_undici@5.16.0
+      '@mdx-js/mdx': 2.2.1
+      '@types/mdx': 2.0.3
+      source-map: 0.7.4
+      vfile: 5.3.6
+      zod: 3.20.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@builder.io/qwik/0.17.3_undici@5.16.0:
+    resolution: {integrity: sha512-ImLRup/xVPB697vVzUCfhgOYU1TPdncC1R0ZgX+leX5e+XmIbEyuz5NQEaT8F4ohY148kbKDFAGRBp+5ZA7jNg==}
+    engines: {node: '>=16.8.0'}
+    hasBin: true
+    peerDependencies:
+      undici: ^5.14.0
+    dependencies:
+      undici: 5.16.0
+    dev: true
 
   /@esbuild/android-arm/0.16.17:
     resolution: {integrity: sha512-N9x1CMXVhtWEAMS7pNNONyA14f71VPQN9Cnavj1XQh6T7bskqiLLrSca4O0Vr8Wdcga943eThxnVp3JLnBMYtw==}
@@ -199,7 +224,7 @@ packages:
     optional: true
 
   /@esbuild/sunos-x64/0.16.17:
-    resolution: {integrity: sha512-xtVUiev38tN0R3g8VhRfN7Zl42YCJvyBhRKw1RJjwE1d1.2emWTVToPLNEQj/5Qxc6lVFATDiy6LjVHYhIPrLxzw==}
+    resolution: {integrity: sha512-xtVUiev38tN0R3g8VhRfN7Zl42YCJvyBhRKw1RJjwE1d2emWTVToPLNEQj/5Qxc6lVFATDiy6LjVHYhIPrLxzw==}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
@@ -2258,7 +2283,7 @@ packages:
     dev: true
 
   /yallist/4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn1.2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
   /yocto-queue/0.1.0:
@@ -2272,35 +2297,4 @@ packages:
 
   /zwitch/2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
-    dev: true
-
-  github.com/builderio/qwik-build/469c210bf3bffc7c04f33b3daf89e7483fb4cf9c_undici@5.16.0:
-    resolution: {tarball: https://codeload.github.com/builderio/qwik-build/tar.gz/469c210bf3bffc7c04f33b3daf89e7483fb4cf9c}
-    id: github.com/builderio/qwik-build/469c210bf3bffc7c04f33b3daf89e7483fb4cf9c
-    name: '@builder.io/qwik'
-    version: 0.17.3
-    engines: {node: '>=16.8.0'}
-    hasBin: true
-    peerDependencies:
-      undici: ^5.14.0
-    dependencies:
-      undici: 5.16.0
-    dev: true
-
-  github.com/builderio/qwik-city-build/b9867c48fafd0b9c16a301a0e1cc64e46dc51000_@builder.io+qwik@0.17.3:
-    resolution: {tarball: https://codeload.github.com/builderio/qwik-city-build/tar.gz/b9867c48fafd0b9c16a301a0e1cc64e46dc51000}
-    id: github.com/builderio/qwik-city-build/b9867c48fafd0b9c16a301a0e1cc64e46dc51000
-    name: '@builder.io/qwik-city'
-    version: 0.1.0-beta12
-    peerDependencies:
-      '@builder.io/qwik': '>=0.17.0'
-    dependencies:
-      '@builder.io/qwik': github.com/builderio/qwik-build/469c210bf3bffc7c04f33b3daf89e7483fb4cf9c_undici@5.16.0
-      '@mdx-js/mdx': 2.2.1
-      '@types/mdx': 2.0.3
-      source-map: 0.7.4
-      vfile: 5.3.6
-      zod: 3.20.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true

@@ -27,6 +27,18 @@ export default component$(() => {
           <Link href='/lab3'>Lab 3 - useStyleScopeId() just as important as useId()</Link>
         </li>
       </ul>
+      <br/>
+      <ul>
+        <li>
+          <Link href='/'>Video Explanation</Link>
+        </li>
+        <li>
+          <Link href='https://github.com/n8sabes/qwik_style_lab'>Qwik Style Lab Repo</Link>
+        </li>
+        <li>
+          <Link href='https://stackblitz.com/edit/qwik-starter-1mn618?file=README.md'>StackBlitz Demo</Link>
+        </li>
+      </ul>
     </div>
   );
 });

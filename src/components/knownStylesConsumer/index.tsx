@@ -4,7 +4,7 @@ import styles from './index.css?inline';
 export default component$(() => {
     useStylesScoped$(styles);
     // const id = useId();
-    // const cssScopeId = useCssScope();    // <-------- ENABLES ALL POSSIBILITIES JUST LIKE useId() did!
+    // const cssScopeId = useStyleScopeId();    // <-------- ENABLES ALL POSSIBILITIES JUST LIKE useId() did!
 
     return (<>
         <div>

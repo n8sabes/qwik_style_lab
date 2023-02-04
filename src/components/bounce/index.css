@@ -13,7 +13,7 @@
 .magic {
     font-size: 1.7em;
     font-weight: 900;
-    color: blue;
+    color: brown;
     text-align: center;
     animation: magic-anim 1s alternate cubic-bezier(.5, 0.05, 1, .5) infinite;
 }
@@ -34,7 +34,7 @@
 .unique-magic-b {
     font-size: 1.7em;
     font-weight: 900;
-    color: blue;
+    color: brown;
     text-align: center;
     animation: unique-magic-anim-b 1s alternate cubic-bezier(.5, 0.05, 1, .5) infinite;
 }

@@ -1,0 +1,58 @@
+@keyframes magic-anim {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.magic {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: blue;
+  text-align: center;
+  animation: magic-anim 1s linear infinite;
+}
+
+/* For demonstration purposes only */
+@keyframes unique-magic-anim-s {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.unique-magic-s {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: blue;
+  text-align: center;
+  animation: unique-magic-anim-s 1s linear infinite;
+}
+
+/* This is the default applied to the target element */
+/* font-size: 1.7em
+font-weight: 900;
+color: blue;
+animation: spin 1s linear infinite; */

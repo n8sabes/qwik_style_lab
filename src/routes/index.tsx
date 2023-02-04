@@ -1,0 +1,37 @@
+import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import { Link } from '@builder.io/qwik-city';
+
+export const DOC_NAME = "Qwik Style Lab";
+
+export default component$(() => {
+  return (
+    <div>
+      <h1>
+        {DOC_NAME} <span class="lightning">⚡️</span>
+      </h1>
+
+      <ul>
+        <li>
+          <Link href='/lab1'>Lab 1 - Scope Declaration Blocks AND Rulesets</Link>
+        </li>
+        <li>
+          <Link href='/lab2'>Lab 2 - CSS$ vanilla css or CSS-in-JS with default style</Link>
+        </li>
+        <li>
+          <Link href='/lab3'>Lab 3 - useScopeId() just as important as useId()</Link>
+        </li>
+      </ul>
+    </div>
+  );
+});
+
+export const head: DocumentHead = {
+  title: DOC_NAME,
+  meta: [
+    {
+      name: 'description',
+      content: `${DOC_NAME} description`,
+    },
+  ],
+};

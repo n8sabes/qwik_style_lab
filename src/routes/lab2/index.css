@@ -1,0 +1,39 @@
+@keyframes magic-anim {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -100px, 0);
+        transform: translate3d(0, -100px, 0);
+    }
+}
+
+/* Could either be un-blcoked or qDefault */
+.qDefault {
+    display: grid;
+    place-items: center;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: orange;
+    font-weight: 700;
+    border: 1px solid orange;
+    animation: magic-anim 1s alternate cubic-bezier(.5, 0.05, 1, .5) infinite;
+}
+
+/* 
+    Default style is build of all floating declarations (not in any ruleset declaration block)
+    Note: This does deviate from standard CSS file syntax causing linter flags, but could be made
+    acceptable for CSS$(`...`) tag string block injection only.
+*/
+display: grid;
+place-items: center;
+min-height: 200px;
+box-sizing: border-box;
+padding: 20px;
+color: orange;
+font-weight: 700;
+border: 1px solid orange;
+animation: magic-anim 1s alternate cubic-bezier(.5, 0.05, 1, .5) infinite;

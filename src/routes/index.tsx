@@ -31,10 +31,10 @@ export default component$(() => {
       Videos:
       <ul>
         <li>
-          <Link href='https://www.loom.com/share/5ff93a9b179942f19c72259205ded04c'>Video - Namespace and CSS$ default styles</Link>
+          <Link href='https://youtu.be/LEcW69SULRw'>Video - Namespace and CSS$ default styles</Link>
         </li>
         <li>
-          <Link href='https://www.loom.com/share/a07816dd3de242f4861347fa53d643f8'>Video - useStyleScopeId</Link>
+          <Link href='https://youtu.be/jiujbrVuj2k'>Video - useStyleScopeId</Link>
         </li>
       </ul>
       Resources:

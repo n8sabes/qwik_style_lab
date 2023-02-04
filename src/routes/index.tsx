@@ -10,7 +10,12 @@ export default component$(() => {
       <h1>
         {DOC_NAME} <span class="lightning">⚡️</span>
       </h1>
-
+      <div>
+        <b>This is about scoping a WHOLE STYLE including its dependencies</b> not 'atomic style' as defined elsewhere.
+        The use of the word atomic here means "all the pieces" that make up a
+        style, inclusive of selectors (classnames and ids), @keyframe and @media query at-rules.
+      </div>
+      <br/>
       <ul>
         <li>
           <Link href='/lab1'>Lab 1 - Scope Declaration Blocks AND Rulesets</Link>
